@@ -1,4 +1,4 @@
-import Header from "../../Frontend/Components/Header/header";
+import Header from "./Frontend/Components/Header/header";
 import Accueil from "@/app/Frontend/Components/Homepage/home";
 import Quartier from "@/app/Frontend/Components/PageTwo/quartier";
 import Residence from "@/app/Frontend/Components/PageThree/residence";
