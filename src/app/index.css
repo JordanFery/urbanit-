@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+
+    --color-creme: #F3E9D2;
+    --color-sable: #E8DCC3;
+    --color-gris: #3F3F3F;
+    --color-brun: #6E7B59;
+    --color-caramelClair: #D4A373;
+    --color-caramelClaire: #D4A373;
+    --color-caramelFonce: #9EAD94;
+    --color-blancCasse: #FAFAFA;
+}
+
+@theme inline {
+    --color-bg1: var(--color-creme);
+    --color-bg2: var(--color-sable);
+    --color-font: var(--color-gris);
+    --color-fontHover: var(--color-blancCasse);
+    --color-title: var(--color-caramelClair);
+    --color-button: var(--color-caramelClaire);
+    --color-buttonHover: var(--color-brun);
+}
