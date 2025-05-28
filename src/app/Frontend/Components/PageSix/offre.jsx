@@ -3,12 +3,12 @@
 
 export default function Offre() {
     return (
-        <section className="text-[var(--color-font)] bg-white w-full py-10">
-            <div className="flex flex-col items-center text-center text-[var(--color-font)]">
-                <h2 className="text-3xl text-[var(--color-title)]">OFFRE DE LANCEMENT SUR LES 3 <br /> PREMIÈRES RÉSERVATIONS :</h2>
+        <section className="text-[var(--color-font)] grid grid-cols-4 bg-white w-full py-10">
+            <div className=" items-center col-start-1 col-span-4 md:col-start-2 md:col-span-2 text-[var(--color-font)]">
+                <h2 className="text-3xl text-center text-[var(--color-title)]">OFFRE DE LANCEMENT SUR LES 3 <br /> PREMIÈRES RÉSERVATIONS :</h2>
 
-                <div className="mt-4 mb-8 w-1/4">
-                    <span className="bg-yellow-200 px-2 py-1 rounded">
+                <div className="mt-4 mb-8 text-center text-xl font-bold">
+                    <span className="px-2 py-1 rounded">
                         FRAIS DE NOTAIRE OFFERTS +  - 5 000 € SUR LE PRIX DU LOGEMENT
                     </span>
                 </div>
