@@ -9,10 +9,9 @@ export default function Atout() {
 
 
     return (
-        <section id='prestation' className="w-full flex flex-row ">
-            <div className="w-[800px] bg-[var(--color-bg2)]" />
+        <section id='prestation' className="w-full grid grid-cols-4 flex flex-row ">
 
-            <div className="relative  flex bg-[var(--color-bg2)] text-[var(--color-font)] flex-col w-full pt-2 pl-12">
+            <div className="relative  flex bg-[var(--color-bg2)] text-[var(--color-font)] flex-col w-full pt-2 md:pl-12 p-4 col-span-4 md:col-span-1 md:col-start-2">
 
 
 
@@ -65,9 +64,9 @@ export default function Atout() {
             </div>
 
 
-            <div className="w-1/2 bg-[var(--color-bg1)] flex">
+            <div className="col-span-4 md:col-span-1 md:col-start-3 bg-[var(--color-bg1)] flex">
 
-                <div className="flex flex-col justify-between items-start text-[var(--color-font)] p-10">
+                <div className="flex flex-col justify-between items-start text-[var(--color-font)] p-4 md:-p-10">
 
                     <h2 className="text-xl mr-auto mt-12">Les atouts de la Résidence :</h2>
 
@@ -114,7 +113,6 @@ export default function Atout() {
                     </div>
 
                 </div>
-                <div className="w-[800px]" />
             </div>
 
 

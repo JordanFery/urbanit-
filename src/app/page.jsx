@@ -12,7 +12,7 @@ import AboutUs from "@/app/Frontend/Components/PageSeven/aboutUs";
 export default function Home() {
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <Accueil />
             <Quartier />
             <Residence />

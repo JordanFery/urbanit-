@@ -15,13 +15,12 @@ export default function Quartier() {
     }
 
     return (
-        <section id="quartier" className="bg-[var(--color-bg2)] w-full flex flex-row">
+        <section id="quartier" className="bg-[var(--color-bg2)] w-full flex grid grid-cols-4 flex-row">
 
 
-            <div className="w-1/2 flex">
-                <div className="w-[800px]" />
+            <div className="md:col-start-2 md:col-span-1 col-span-4 mx-4 flex">
 
-                <div className="flex flex-col justify-between items-start text-[var(--color-font)] p-10">
+                <div className="flex flex-col justify-between col-span-1 items-start text-[var(--color-font)]">
 
                     <h1 className="text-[var(--color-title)] text-5xl mr-auto mt-12">Un quartier dynamique <br /> et familial</h1>
 
@@ -82,7 +81,7 @@ export default function Quartier() {
 
 
 
-            <div className="relative w-1/2 flex bg-[var(--color-bg1)] flex-col pt-2 pl-12">
+            <div className="relative md:col-start-3 md:col-span-2 col-span-4 place-items-center md:place-items-start  md:pl-4 flex bg-[var(--color-bg1)] flex-col pt-2">
 
 
                 {!showStrategique && (
