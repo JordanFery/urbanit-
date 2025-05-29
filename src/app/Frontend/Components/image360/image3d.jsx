@@ -1,17 +1,38 @@
+// export default function Virtuel() {
+//     return (
+//         <a
+//             href="http://www.chokoprod.com/urba/"
+//             target="_blank"
+//             rel="noopener noreferrer"
+//             className="block w-full h-[400px] md:h-[600px] bg-gray-100 flex items-center justify-center text-center text-sm text-gray-500"
+//         >
+//             Cliquez ici pour accéder à la visite virtuelle 360°
+//         </a>
+
+//     );
+// }
+
+
+
+import { Rotate3D } from "lucide-react"; // Icône stylée, installée via lucide-react
+
 export default function Virtuel() {
     return (
-        <div className="overflow-hidden w-full h-[400px] md:h-[600px] relative">
-            <iframe
-                src="http://www.chokoprod.com/urba/"
-                title="Visite virtuelle 360°"
-                // className="w-full h-full border-0"
-                className="w-full h-[600px] md:h-[700px] scale-150  -translate-y-[100px] md:scale-100 md:translate-y-0"
-
-                allowFullScreen
-            ></iframe>
+        <div className="w-full h-[400px] md:h-[400px] bg-[var(--color-bg1)] flex items-center justify-center px-4">
+            <a
+                href="http://www.chokoprod.com/urba/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group bg-white shadow-xl rounded-xl p-8 flex flex-col items-center justify-center text-center hover:bg-[var(--color-title)] transition duration-300 ease-in-out w-full max-w-xl"
+            >
+                <Rotate3D className="w-12 h-12 text-[var(--color-title)] group-hover:text-white mb-4 transition duration-300" />
+                <h2 className="text-lg font-semibold text-[var(--color-title)] group-hover:text-white">
+                    Explorez la Résidence en 360°
+                </h2>
+                <p className="text-sm text-gray-500 group-hover:text-white mt-2">
+                    Cliquez ici pour lancer la visite virtuelle immersive
+                </p>
+            </a>
         </div>
     );
 }
-
-
-
