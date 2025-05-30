@@ -4,7 +4,7 @@ export default function AboutUs() {
 
     return (
 
-        <section className="flex  grid grid-cols-4 bg-[var(--color-bg1)]">
+        <section className="flex  grid grid-cols-4 bg-[var(--color-bg2)]">
             <h2 className="text-5xl col-start-1 md:col-start-2 col-span-4 md:col-span-1 text-center pt-12 pb-6 w-full text-[var(--color-title)]">Qui sommes-nous ?</h2>
 
 

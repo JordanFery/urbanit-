@@ -10,7 +10,7 @@ export default function Residence() {
         <section id="residence" className="bg-[var(--color-bg2)] w-full grid grid-cols-4 flex flex-row">
 
 
-            <div className="flex bg-white flex-col  place-items-center md:col-span-2 col-span-4 py-8 md:py-0 md:mx-4 flex ">
+            <div className="flex bg-white flex-col  place-items-center md:col-span-2 col-span-4 py-8 md:py-0 justify-center  ">
 
                 <div className="w-1/2 relative">
                     <Image
