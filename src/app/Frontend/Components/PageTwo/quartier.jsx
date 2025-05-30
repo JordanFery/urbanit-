@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import { ShoppingCart } from 'lucide-react';
 import { TreePine } from 'lucide-react';
 import { Volleyball } from 'lucide-react';
+import AnimatedNumber from "@/components/animatedNumber";
 
 
 export default function Quartier() {
@@ -54,22 +55,25 @@ export default function Quartier() {
                     <h2 className="py-2">La Pompignane en chiffre :</h2>
                     <span className="h-1 w-full bg-[var(--color-title)]"></span>
 
-                    <div className="flex flex-row w-full mt-2 justify-between ">
+                    <div className="flex flex-row w-full mt-2 justify-between pb-12">
                         <div className="w-1/4">
-                            <p className="text-4xl">60</p>
+                            <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 leading-tight">
+                                <AnimatedNumber target={60} duration={2000} />
+                            </div>
                             <p className="text-sm">Commerces</p>
                         </div>
                         <div className="w-1/4">
-                            <p className="text-4xl">
-                                42<span className="text-2xl">
-                                    ans
-                                </span>
-                            </p>
+                            <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 leading-tight flex flex-row items-baseline">
+                                <AnimatedNumber target={42} duration={2000} />
+                                <p className="text-[var(--color-font)] text-xl font-normal ">ans</p>
+                            </div>
                             <p className="text-sm">De moyenne d'âge</p>
                         </div>
                         <div className="w-1/4">
-                            <p className="text-4xl">41%</p>
-                            <p className="text-sm">De propriétaires</p>
+                            <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 leading-tight flex flex-row items-baseline">
+                                <AnimatedNumber target={41} duration={2000} />
+                                <p className="text-[var(--color-font)] text-xl font-normal ">%</p>
+                            </div>                            <p className="text-sm">De propriétaires</p>
                         </div>
                     </div>
                 </div>

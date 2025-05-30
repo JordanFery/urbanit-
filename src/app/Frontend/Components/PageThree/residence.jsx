@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import AnimatedNumber from "@/components/animatedNumber";
 
 
 
@@ -41,19 +42,26 @@ export default function Residence() {
 
                 <div className="flex flex-row text-center w-full mt-2 justify-between ">
                     <div className="w-1/2">
-                        <p className="text-5xl text-[var(--color-title)] font-[1000] pb-2">47</p>
+                        <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 leading-tight">
+                            <AnimatedNumber target={46} duration={2000} />
+                        </div>
                         <p className="text-sm">Logements</p>
                     </div>
                     <div className="w-1/2 border-r border-l border-[var(--color-title)]">
-                        <p className="text-5xl text-[var(--color-title)] font-[1000]  pb-2">
-                            3
-                        </p>
+                        <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 leading-tight">
+                            <AnimatedNumber target={3} duration={2000} />
+                        </div>
                         <p className="text-sm">Commerces</p>
                     </div>
                     <div className="w-1/2">
-                        <p className="text-5xl text-[var(--color-title)] font-[1000] pb-2">2<span className="text-xl px-1 text-text-5xl text-[var(--color-font)] font-light mx-2">à</span>6</p>
+                        <div className="flex items-baseline gap-1 text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 leading-tight">
+                            <AnimatedNumber target={2} duration={2000} />
+                            <span className="text-[var(--color-font)] text-sm font-light px-2">à</span>
+                            <AnimatedNumber target={6} duration={2000} />
+                        </div>
                         <p className="text-sm">Pièces</p>
                     </div>
+
                 </div>
                 <div className=" mb-10">
                     <h2 className="text-4xl mt-12 mb-4 italic text-[var(--color-font)]">Le mot de l'architecte</h2>
