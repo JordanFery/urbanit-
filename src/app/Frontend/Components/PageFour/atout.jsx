@@ -16,7 +16,7 @@ export default function Atout() {
 
 
                 <div className="pr-4 mb-12">
-                    <h2 className="text-4xl mb-6 text-[var(--color-title)] mt-12">Les différents types d'accession</h2>
+                    <h1 className="text-[var(--color-title)] md:text-5xl text-3xl mr-auto my-12">Les différents types d'accession</h1>
                     <p className="italic"> <span className="underline">Le BRS (Bail Réel Solidaire)</span>
                         est un dispositif destiné à faciliter l’accès à la propriété pour les ménages modestes. Il permet d’acheter un logement à un prix inférieur du marché.
                     </p>

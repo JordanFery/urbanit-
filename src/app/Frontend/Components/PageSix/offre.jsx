@@ -3,9 +3,9 @@
 
 export default function Offre() {
     return (
-        <section className="text-[var(--color-font)] bg-[var(--color-bg1)] grid grid-cols-4  w-full py-10">
+        <section className="text-[var(--color-font)] bg-[var(--color-bg1)] grid grid-cols-4  w-full py-10 px-4">
             <div className=" items-center col-start-1 col-span-4 md:col-start-2 md:col-span-2 text-[var(--color-font)]">
-                <h2 className="text-3xl text-center text-[var(--color-title)]">OFFRE DE LANCEMENT SUR LES 3 <br /> PREMIÈRES RÉSERVATIONS :</h2>
+                <h1 className="text-[var(--color-title)] md:text-5xl text-3xl mr-auto mt-12 text-center">OFFRE DE LANCEMENT SUR LES 3 <br /> PREMIÈRES RÉSERVATIONS :</h1>
 
                 <div className="mt-4 mb-8 text-center text-xl font-bold">
                     <span className="px-2 py-1 rounded">

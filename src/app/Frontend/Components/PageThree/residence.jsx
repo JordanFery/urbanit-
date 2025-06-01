@@ -10,7 +10,7 @@ export default function Residence() {
     return (
         <section id="residence" className="bg-[var(--color-bg2)] w-full grid grid-cols-6 flex flex-row scroll-mt-14">
 
-            <div className="flex bg-white flex-col items-center md:col-span-3 col-span-4 py-8 md:py-0 justify-evenly min-h-[500px]">
+            <div className="flex bg-white flex-col items-center md:col-span-3 col-span-6 py-8 md:py-0 justify-evenly min-h-[500px]">
 
                 <div className="w-1/2">
                     <Image
@@ -49,7 +49,7 @@ export default function Residence() {
 
             <div className="flex flex-col md:col-start-4 col-start-1 col-span-6 md:col-span-2 text-[var(--color-font)] md:pl-10 px-4 md:px-0">
 
-                <h1 className="text-[var(--color-title)]  text-5xl mr-auto my-12">Une Résidence <br /> aux multiples <br /> atouts</h1>
+                <h1 className="text-[var(--color-title)] md:text-5xl text-3xl mr-auto my-12">Une Résidence aux multiples atouts</h1>
 
 
                 <div className="flex flex-row text-center w-full mt-2 justify-between ">

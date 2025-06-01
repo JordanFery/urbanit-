@@ -4,11 +4,11 @@ export default function AboutUs() {
 
     return (
 
-        <section className="flex  grid grid-cols-6 bg-[var(--color-bg2)] items-center">
+        <section className="flex  grid grid-cols-6 bg-[var(--color-bg2)] items-center px-4">
 
             <div className="col-span-6 md:col-span-2 md:col-start-2">
 
-                <h2 className="text-5xl text-center pt-12 pb-6 w-full text-[var(--color-title)]">Qui sommes-nous ?</h2>
+                <h1 className="text-[var(--color-title)] text-5xl mr-auto my-12">Qui sommes-nous ?</h1>
 
 
                 <p className="text-[var(--color-font)]">
@@ -30,13 +30,14 @@ export default function AboutUs() {
 
 
 
-            <div className="col-span-4 md:col-span-3 px-8">
+            <div className="col-span-6 md:col-span-3 px-8">
 
                 <Image
                     src="/corpo.png"
-                    alt="immeuble"
+                    alt="Notre Équipe devant l’une de nos réalisations. Résidence KOH I NOOR – Quartier Port Marianne – Montpellier"
                     width={1000}
                     height={1000}
+
                 />
 
 
