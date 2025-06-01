@@ -23,7 +23,7 @@ export default function Quartier() {
 
                 <div className="flex flex-col justify-between col-span-1 items-start text-[var(--color-font)]">
 
-                    <h1 className="text-[var(--color-title)] md:text-5xl text-3xl mr-auto mt-12">Un quartier dynamique et familial</h1>
+                    <h1 className="text-[var(--color-title)] font-semibold md:text-5xl text-3xl mr-auto mt-12">Un quartier dynamique et familial</h1>
 
                     <p className="py-4">À Montpellier, le quartier de la Pompignane est un quartier résidentiel en pleine évolution, la ville le transforme pour en faire un lieu de vie urbain, vert et durable.
                     </p>
@@ -42,7 +42,7 @@ export default function Quartier() {
                     </div>
                     <div className="flex py-2">
                         <Volleyball className="mr-4" />
-                        <ul>
+                        <ul className="pb-2">
                             <li>- Piscine Jean Taris</li>
                             <li>- Bowling de la Pompignane</li>
                             <li>- Stade de la Pompignane (boulodrome, multisports, terrain de foot)</li>
@@ -52,29 +52,34 @@ export default function Quartier() {
 
 
 
-                    <h2 className="py-2">La Pompignane en chiffre :</h2>
-                    <span className="h-1 w-full bg-[var(--color-title)] px-24"></span>
+                    <span className="h-[0.5px] w-full bg-[var(--color-title)]"></span>
+                    <h2 className="pt-4 pb-2">La Pompignane en chiffre :</h2>
 
-                    <div className="flex flex-row w-full mt-2 justify-between pb-12">
-                        <div className="w-1/4">
+
+                    <div className="flex flex-row text-center w-full justify-between mt-2 pb-12">
+                        <div className="">
                             <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 leading-tight">
                                 <AnimatedNumber target={60} duration={2000} />
                             </div>
                             <p className="text-sm">Commerces</p>
                         </div>
-                        <div className="w-1/4">
-                            <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 leading-tight flex flex-row items-baseline">
+                        <div className=" border-r border-l border-[var(--color-title)]">
+                            <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 flex flex-row items-baseline justify-center leading-tight">
                                 <AnimatedNumber target={42} duration={3000} />
-                                <p className="text-[var(--color-font)] text-xl font-normal ">ans</p>
+                                <p className="text-[var(--color-title)] text-xl font-normal pl-1 ">ans</p>
+
                             </div>
-                            <p className="text-sm">De moyenne d'âge</p>
+                            <p className="text-sm px-10">De moyenne d'âge</p>
                         </div>
-                        <div className="w-1/4">
-                            <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 leading-tight flex flex-row items-baseline">
+                        <div className="pr-4">
+                            <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 flex flex-row items-baseline justify-center leading-tight">
                                 <AnimatedNumber target={41} duration={4000} />
-                                <p className="text-[var(--color-font)] text-xl font-normal ">%</p>
-                            </div>                            <p className="text-sm">De propriétaires</p>
+                                <p className="text-[var(--color-title)] text-xl font-normal ">%</p>
+
+                            </div>
+                            <p className="text-sm">De propriétaires</p>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -96,7 +101,7 @@ export default function Quartier() {
                     </div>
                 ) : (
                     <>
-                        <div className="w-1/2 relative">
+                        <div className="w-1/2 relative mt-12">
                             <Image
                                 src="/PLAN DE SITUATION.png"
                                 alt="immeuble"

@@ -10,7 +10,7 @@ export default function Strategique() {
     return (
 
         // <section className="bg-[#A39580] h-full p-10 text-white">
-        <section className="bg-[#A39580] h-full max-h-screen overflow-y-auto p-6 text-white">
+        <section className="bg-[var(--color-title)] h-full max-h-screen overflow-y-auto p-6 text-white">
 
             <div className="py-4">
                 <div className='flex w-full justify-evenly mb-4'>
