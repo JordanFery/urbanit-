@@ -61,15 +61,15 @@ export default function Residence() {
                     </div>
                     <div className="w-1/2 border-r border-l border-[var(--color-title)]">
                         <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 leading-tight">
-                            <AnimatedNumber target={3} duration={2000} />
+                            <AnimatedNumber target={3} duration={3000} />
                         </div>
                         <p className="text-sm">Commerces</p>
                     </div>
                     <div className="w-1/2">
-                        <div className="flex items-baseline gap-1 text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 leading-tight">
-                            <AnimatedNumber target={2} duration={2000} />
+                        <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 leading-tight">
+                            <AnimatedNumber target={2} duration={4000} />
                             <span className="text-[var(--color-font)] text-sm font-light px-2">à</span>
-                            <AnimatedNumber target={6} duration={2000} />
+                            <AnimatedNumber target={6} duration={4000} />
                         </div>
                         <p className="text-sm">Pièces</p>
                     </div>

@@ -64,14 +64,14 @@ export default function Quartier() {
                         </div>
                         <div className="w-1/4">
                             <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 leading-tight flex flex-row items-baseline">
-                                <AnimatedNumber target={42} duration={2000} />
+                                <AnimatedNumber target={42} duration={3000} />
                                 <p className="text-[var(--color-font)] text-xl font-normal ">ans</p>
                             </div>
                             <p className="text-sm">De moyenne d'âge</p>
                         </div>
                         <div className="w-1/4">
                             <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 leading-tight flex flex-row items-baseline">
-                                <AnimatedNumber target={41} duration={2000} />
+                                <AnimatedNumber target={41} duration={4000} />
                                 <p className="text-[var(--color-font)] text-xl font-normal ">%</p>
                             </div>                            <p className="text-sm">De propriétaires</p>
                         </div>
