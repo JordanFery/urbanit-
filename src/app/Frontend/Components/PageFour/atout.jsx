@@ -9,13 +9,13 @@ export default function Atout() {
 
 
     return (
-        <section id='prestation' className="w-full grid grid-cols-4">
+        <section id='prestation' className="w-full grid grid-cols-6 scroll-mt-14">
 
             <div className='bg-[var(--color-bg2)] col-span-1' />
-            <div className="relative  flex bg-[var(--color-bg2)] text-[var(--color-font)] flex-col w-full pt-2 md:pl-12 p-4 col-span-4 md:col-span-1">
+            <div className="relative  flex bg-[var(--color-bg2)] text-[var(--color-font)] flex-col w-full pt-2 md:pl-12 p-4 col-span-6 md:col-span-2">
 
 
-                <div className="pr-4 mb-12 col-start-2 col-span-1">
+                <div className="pr-4 mb-12">
                     <h2 className="text-4xl mb-6 text-[var(--color-title)] mt-12">Les différents types d'accession</h2>
                     <p className="italic"> <span className="underline">Le BRS (Bail Réel Solidaire)</span>
                         est un dispositif destiné à faciliter l’accès à la propriété pour les ménages modestes. Il permet d’acheter un logement à un prix inférieur du marché.
@@ -63,7 +63,7 @@ export default function Atout() {
             </div>
 
 
-            <div className="col-span-4 md:col-span-1 md:col-start-3 col-start-1 bg-[var(--color-bg1)] flex">
+            <div className="col-span-6 md:col-span-2 md:col-start-4 col-start-1 bg-[var(--color-bg1)] flex">
 
                 <div className="flex flex-col justify-between items-start text-[var(--color-font)] p-4 md:-p-10">
 

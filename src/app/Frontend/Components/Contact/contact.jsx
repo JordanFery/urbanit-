@@ -91,10 +91,10 @@ export function Contact() {
                                 <div className="mb-6">
                                     <FormField
                                         control={form.control}
-                                        name="username"
+                                        name="name"
                                         render={({ field }) => (
                                             <FormItem>
-                                                <FormLabel>Prénom</FormLabel>
+                                                <FormLabel>Nom</FormLabel>
                                                 <FormControl className="bg-[var(--color-fontHover)]">
                                                     <Input placeholder="" {...field} />
                                                 </FormControl>
@@ -106,10 +106,10 @@ export function Contact() {
                                 <div className="mb-6">
                                     <FormField
                                         control={form.control}
-                                        name="name"
+                                        name="username"
                                         render={({ field }) => (
                                             <FormItem>
-                                                <FormLabel>Nom</FormLabel>
+                                                <FormLabel>Prénom</FormLabel>
                                                 <FormControl className="bg-[var(--color-fontHover)]">
                                                     <Input placeholder="" {...field} />
                                                 </FormControl>

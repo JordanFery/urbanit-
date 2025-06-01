@@ -9,6 +9,7 @@ import Virtuel from "@/app/Frontend/Components/image360/image3d";
 import AboutUs from "@/app/Frontend/Components/PageSeven/aboutUs";
 import Photos from "./Frontend/Components/imagesRésidence/pictures";
 import InfoContact from "./Frontend/Components/pageEight/infoContact";
+import Footer from "./Frontend/Components/Footer/footer";
 
 export default function Home() {
     return (
@@ -24,6 +25,7 @@ export default function Home() {
             <Offre />
             <AboutUs />
             <InfoContact />
+            <Footer />
         </div>
     );
 }

@@ -1,19 +1,3 @@
-// export default function Virtuel() {
-//     return (
-//         <a
-//             href="http://www.chokoprod.com/urba/"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//             className="block w-full h-[400px] md:h-[600px] bg-gray-100 flex items-center justify-center text-center text-sm text-gray-500"
-//         >
-//             Cliquez ici pour accéder à la visite virtuelle 360°
-//         </a>
-
-//     );
-// }
-
-
-
 import { Rotate3D } from "lucide-react"; // Icône stylée, installée via lucide-react
 
 export default function Virtuel() {

@@ -4,7 +4,7 @@
 export default function Tableau() {
 
     return (
-        <section id='tarif' className="bg-[var(--color-bg2)] text-[var(--color-font)] grid grid-cols-4 py-12">
+        <section id='tarif' className="bg-[var(--color-bg2)] text-[var(--color-font)] grid grid-cols-4 py-12 scroll-mt-14">
             <div className="flex col-start-1 md:col-start-2 col-span-4 md:col-span-2 justify-center">
 
                 <table className="whitespace-nowrap">

@@ -8,12 +8,11 @@ export default function Residence() {
 
 
     return (
-        <section id="residence" className="bg-[var(--color-bg2)] w-full grid grid-cols-4 flex flex-row">
+        <section id="residence" className="bg-[var(--color-bg2)] w-full grid grid-cols-6 flex flex-row scroll-mt-14">
 
+            <div className="flex bg-white flex-col items-center md:col-span-3 col-span-4 py-8 md:py-0 justify-evenly min-h-[500px]">
 
-            <div className="flex bg-white flex-col  place-items-center md:col-span-2 col-span-4 py-8 md:py-0 justify-center  ">
-
-                <div className="w-1/2 relative">
+                <div className="w-1/2">
                     <Image
                         src="/architecte.jpg"
                         alt="immeuble"
@@ -21,7 +20,8 @@ export default function Residence() {
                         height={1000}
                     />
                 </div>
-                <div className="w-1/2 relative">
+
+                <div className="w-1/2">
                     <Image
                         src="/LOGO archi.png"
                         alt="immeuble"
@@ -30,12 +30,24 @@ export default function Residence() {
                     />
                 </div>
 
+                <div className="mt-4 text-center">
+                    <a
+                        href="https://www.au-rc.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block px-4 py-2 rounded-lg bg-[var(--color-bg1)] text-[var(--color-font)] font-semibold hover:bg-[var(--color-title)] hover:text-white transition duration-300 shadow-sm"
+                    >
+                        Visiter le site de l'Atelier d'Urbanité Roland Castro
+                    </a>
+                </div>
+
+
             </div>
 
 
 
 
-            <div className="flex flex-col md:col-start-3 col-start-1 col-span-4 md:col-span-1 text-[var(--color-font)] md:pl-10 px-4 md:px-0">
+            <div className="flex flex-col md:col-start-4 col-start-1 col-span-6 md:col-span-2 text-[var(--color-font)] md:pl-10 px-4 md:px-0">
 
                 <h1 className="text-[var(--color-title)]  text-5xl mr-auto my-12">Une Résidence <br /> aux multiples <br /> atouts</h1>
 
