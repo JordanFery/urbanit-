@@ -27,7 +27,7 @@ export default function Accueil() {
                         <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_var(--color-title)_50%,white_50%)] bg-clip-text text-transparent">T</span>
                         <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_white_50%,_var(--color-title)_50%)] bg-clip-text text-transparent">É</span>
                     </h1> */}
-                    <div className="w-2xl h-48 overflow-hidden mx-auto mt-12">
+                    <div className="md:w-2xl w-sm h-48 overflow-hidden mx-auto mt-12">
                         <Image
                             src="/logourba.png"
                             alt="logo entreprise"
