@@ -83,7 +83,7 @@ export default function Atout() {
 
                     <h2 className="text-xl mr-auto mt-12 pb-6 font-semibold">Les atouts de la Résidence :</h2>
 
-                    <ul className='list-disc md:pl-14'>
+                    <ul className='list-disc pl-14'>
                         <li className='pb-2'>Ville attractive à fort potentiel</li>
                         <li className='pb-2'>Quartier dynamique, résidentiel et calme : idéal pour les familles</li>
                         <li className='pb-2'>Potentiel immobilier attractif : forte demande locative pour les investisseurs</li>
