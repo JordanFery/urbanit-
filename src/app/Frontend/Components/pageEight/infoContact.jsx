@@ -23,9 +23,11 @@ export default function InfoContact() {
             <div className="bg-[var(--color-title)] rounded-xl p-6 hover:scale-[1.03] transition-transform duration-300 shadow-lg">
                 <div className="flex items-center gap-4 mb-2">
                     <Phone className="w-6 h-6 text-white" />
-                    <h3 className="text-lg font-semibold">Appelez-nous</h3>
+                    <h3 className="text-lg font-semibold">Contactez-nous</h3>
                 </div>
                 <p className="text-sm">Tél. 04 67 65 64 12</p>
+                <p className="text-sm">Mail : contact@kaletihos.fr</p>
+
             </div>
 
             {/* Adresse */}

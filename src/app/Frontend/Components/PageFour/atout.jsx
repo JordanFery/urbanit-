@@ -1,6 +1,8 @@
 "use client";
 import { Paintbrush } from 'lucide-react';
 import { Heater } from 'lucide-react';
+import Image from "next/image";
+
 
 
 
@@ -16,20 +18,37 @@ export default function Atout() {
 
 
                 <div className="pr-4 mb-12">
-                    <h1 className="text-[var(--color-title)] font-semibold md:text-5xl text-3xl mr-auto mt-12 pb-10">Les différents types d'accession</h1>
-                    <p> <span className="font-bold">Le BRS (Bail Réel Solidaire) </span>
-                        est un dispositif destiné à faciliter l’accès à la propriété pour les ménages modestes. Il permet d’acheter un logement à un prix inférieur du marché.
+                    <p className='py-4'>
+                        Notre résidence s'appelle "Urbanité" pour le clin d'oeil à notre architecte "l'Atelier d'Urbanité Roland Castro", et parce qu'elle met en avant le savoir vivre, la politesse.
                     </p>
 
-                    <p className="pt-6">Voici comment ça fonctionne :</p>
+                    <p className="pb-2">Ces urbanités se déclinent de multiples façons :</p>
+                    <ul>
+                        <li className='pb-1'>- Mixité de logements allant du T2 jusqu'au T6.</li>
+                        <li className='pb-1'>- Mixité de clientèle avec du BRS "socle", du BRS intermédiaire, des logements en TVA à 5.5% (secteur QPV de la Pompignane), et des logements libres.</li>
+                        <li className='pb-1'>- Présence d'un concierge logeant sur place pour favoriser la bonne entente entre les habitants.</li>
+                        <li className='pb-1'>- Présence de 3 commerces sur le thème de la restauration, du sport et du médical. "Mens sana in corpore sano"</li>
+                        <li className='pb-1'>- Réalisation par la Ville de la future place Juin (végétalisée), devant la Résidence faisant tampon entre la Résidence et les rues.</li>
+                        <li className='pb-1'>- Présence d'une toiture partagée et très végétalisée favorisant le lien social et la détente</li>
+                        <li className='pb-1'>- 2 voitures en auto-partage pour inciter les résidents à favoriser les transports collectifs ou le vélo.</li>
+                    </ul>
 
-                    <p className="py-2">
-                        <span className='font-semibold'>
-                            1. Propriétaire du terrain : <br />
+
+                    <p className="pt-6 pb-2">
+                        <span className='underline'>
+                            L'avancement du projet : <br />
                         </span>
-                        L’OFS de la Métropole de Montpellier reste propriétaire du terrain sur lequel le logement est construit. Ce terrain est mis en location à long terme (99 ans).</p>
+                    </p>
 
-                    <p className="py-2">
+                    <ul>
+                        <li className='pb-1'>Avril 2025 : Lancement commercial</li>
+                        <li className='pb-1'>Mai 2025 : Permis de construire accepté</li>
+                        <li className='pb-1'>Mai 2025 : Travaux de réaménagement de la voirie côté école</li>
+                        <li className='pb-1'>Juin 2025 : Consultation des entreprises pour travaux</li>
+                        <li className='pb-1'>4ème trimestre 2025 : début des travaux</li>
+                        <li className='pb-1'>Fin 2027 : Livraison</li>
+                    </ul>
+                    {/* <p className="py-2">
                         <span className='font-semibold'>
 
                             2. Propriétaire du logement : <br />
@@ -62,7 +81,7 @@ export default function Atout() {
                         </li>
                     </ul>
 
-                    <a className="underline" href="">Voir les logements proposés en BRS</a>
+                    <a className="underline" href="">Voir les logements proposés en BRS</a> */}
 
                 </div>
 
@@ -77,9 +96,9 @@ export default function Atout() {
             </div>
 
 
-            <div className="col-span-6 md:col-span-2 md:col-start-4 col-start-1 bg-[var(--color-bg1)] flex">
+            <div className="col-span-6 md:col-span-3 md:col-start-4 col-start-1 bg-[var(--color-bg1)] flex items-center">
 
-                <div className="flex flex-col justify-between items-start text-[var(--color-font)] p-4 md:p-10">
+                {/* <div className="flex flex-col justify-between items-start text-[var(--color-font)] p-4 md:p-10">
 
                     <h2 className="text-xl mr-auto mt-12 pb-6 font-semibold">Les atouts de la Résidence :</h2>
 
@@ -125,10 +144,16 @@ export default function Atout() {
                         </ul>
                     </div>
 
+                </div> */}
+                <div className="mt-10 p-4 w-full relative">
+                    <Image
+                        src="/PerspectiveFinale.jpg"
+                        alt="immeuble"
+                        width={1000}
+                        height={1000}
+                    />
                 </div>
-
             </div>
-            <div className='bg-[var(--color-bg1)] col-span-1' />
 
 
         </section >

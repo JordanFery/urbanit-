@@ -101,17 +101,17 @@ export default function Quartier() {
                     </div>
                 ) : (
                     <>
-                        <div className="w-1/2 relative mt-12">
+                        <div className="mt-10 w-1/2 relative">
                             <Image
-                                src="/PLAN DE SITUATION.png"
+                                src="/map.png"
                                 alt="immeuble"
                                 width={1000}
                                 height={1000}
                             />
                         </div>
-                        <div className="mt-10 w-1/2 relative">
+                        <div className="w-1/2 relative mt-12">
                             <Image
-                                src="/map.png"
+                                src="/PLAN DE SITUATION.png"
                                 alt="immeuble"
                                 width={1000}
                                 height={1000}

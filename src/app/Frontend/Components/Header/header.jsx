@@ -9,8 +9,8 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
     { href: "#quartier", label: "Le quartier" },
     { href: "#residence", label: "La résidence" },
-    { href: "#prestation", label: "Les prestations" },
-    { href: "#tarif", label: "Investissements judicieux" },
+    { href: "#prestation", label: "Habiter ou Investir " },
+    { href: "#about", label: "Qui sommes-nous ?" },
 ];
 
 export default function Header() {
@@ -28,7 +28,7 @@ export default function Header() {
                         alt="logo entreprise"
                         width={1000}
                         height={1000}
-                        className="h-8 w-auto object-contain cursor-pointer"
+                        className="h-8 w-auto object-contain cursor-pointer filter brightness-0"
                     />
                 </Link>
             </div>

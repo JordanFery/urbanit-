@@ -5,34 +5,48 @@ export default function Offre() {
     return (
         <section className="text-[var(--color-font)] bg-[var(--color-bg1)] grid grid-cols-4  w-full py-10 px-4">
             <div className=" items-center col-start-1 col-span-4 md:col-start-2 md:col-span-2 text-[var(--color-font)]">
-                <h1 className="text-[var(--color-title)] font-semibold text-center md:text-5xl text-3xl mr-auto mt-12">OFFRE DE LANCEMENT SUR LES 3 PREMIÈRES RÉSERVATIONS :</h1>
+                <h1 className="text-[var(--color-title)] font-semibold text-center md:text-5xl text-3xl mr-auto mt-12">Habiter ou Investir</h1>
 
                 <div className="mt-4 mb-8 text-center text-xl font-bold">
                     <span className="px-2 py-1 rounded">
-                        FRAIS DE NOTAIRE OFFERTS +  - 5 000€ SUR LE PRIX DU LOGEMENT
-                    </span>
+                        Plusieurs types d'accession vous sont proposées                    </span>
                 </div>
-                <p className="py-4">La Résidence se trouve dans un quartier prioritaire de la ville (QPV), l’acquisition d’un logement neuf sur plans (en VEFA) est donc éligible au taux réduit de TVA de 5,5 %.</p>
+                <p className="py-4">
+                    <span className="underline">
+                        L'accession en BRS (bail réel solidaire)
+                    </span>
+                    permet de réduire le coût d'achat d'un logement et c'est une solution pour favoriser l'accès à la propriété sans que les prix ne s'envolent.</p>
 
                 <ul>
-                    <span className="font-semibold">
-                        Les conditions pour acquérir un logement en QPV sont :
-                    </span>
-
-                    <li>- Utiliser le logement en Résidence Principale, pendant au moins 10 ans</li>
-                    <li>- Conditions de ressources à respecter : lien du document.</li>
+                    <li>Logement T3 : 212 000€</li>
+                    <li>Logement T4 : 258 000€</li>
+                    <li>Logement T5 : 277 000€</li>
                 </ul>
 
+                <p className="py-4">
+                    <span className="underline">
+                        L'accession en TVA à 5.5%
+                    </span>
+                    permet aussi de réduire le coût d'un logement (soumis à des conditions de ressources).</p>
 
-                <div className="flex flex-col py-4">
+                <ul className="mb-4">
+                    <li>Logement T2 : 212 000€</li>
+                    <li>Logement T3 : 212 000€</li>
+                    <li>Logement T4 : 258 000€</li>
+                    <li>Logement T5 : 277 000€</li>
+                    <li>Logement T6 : 212 000€</li>
 
-                    <a className="underline" href="">Voir les logements proposés en QPV - LIBRE</a>
-                    <a className="underline" href="">N° du logement – Typologie et surface – Surface extérieure – Plan (à mettre en lien) – Prix QPV – Prix LIBRE</a>
-                    <a className="underline" href="">N° du logement – Typologie et surface – Surface extérieure – Plan (à mettre en lien) – Prix QPV – Prix LIBRE</a>
-                    <a className="underline" href="">N° du logement – Typologie et surface – Surface extérieure – Plan (à mettre en lien) – Prix QPV – Prix LIBRE</a>
-                </div>
-                <p className="py-4 italic">Si vous n’êtes pas concernés par ce dispositif, vous avez la possibilité d’acquérir votre appartement en accession LIBRE.
+                </ul>
+
+                <p className="font-semibold my-2">Contactez-nous pour en savoir plus sur ces dispositifs !</p>
+                <p>Si vous n'êtes pas concernés par ces 2 dispositifs, vous avez la possibilité d'acquérir votre appartement en
+                    <span className="underline">
+                        accession libre
+                    </span>
+                    (pour habiter ou investir)
                 </p>
+
+
             </div>
 
 

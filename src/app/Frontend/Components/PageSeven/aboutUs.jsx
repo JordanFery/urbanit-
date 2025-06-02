@@ -4,7 +4,7 @@ export default function AboutUs() {
 
     return (
 
-        <section className="flex  grid grid-cols-6 bg-[var(--color-bg2)] items-center px-4 py-8">
+        <section id="about" className="flex  grid grid-cols-6 bg-[var(--color-bg2)] items-center px-4 py-8 scroll-mt-18">
 
             <div className="col-span-6 md:col-span-2 md:col-start-2">
 
@@ -16,10 +16,10 @@ export default function AboutUs() {
 
                     L’équipe est parfaitement stable depuis des années, tous ses membres ont plus de 10 ans d’ancienneté. Il en résulte des automatismes et une très forte culture d’entreprise tournée vers la qualité et l’engagement. <br /><br />
                     <span className="font-semibold">
-                        Vous souhaitez acquérir un logement ou faire un investissement locatif, quel que soit votre profil ? <br /><br />
+                        Vous souhaitez acquérir un logement ou faire un investissement locatif ? <br /><br />
                     </span>
 
-                    Contactez-nous, nous vous aiderons à faire le point sur votre projet et trouver l’appartement de vos rêves ! Nous vous mettrons également en contact avec nos meilleurs partenaires bancaires.
+                    Contactez-nous, nous vous aiderons à faire le point sur votre projet et trouver l’appartement idéal ! Nous vous mettrons également en contact avec nos meilleurs partenaires bancaires.
 
 
                 </p>

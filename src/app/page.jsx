@@ -3,7 +3,7 @@ import Accueil from "@/app/Frontend/Components/Homepage/home";
 import Quartier from "@/app/Frontend/Components/PageTwo/quartier";
 import Residence from "@/app/Frontend/Components/PageThree/residence";
 import Atout from "@/app/Frontend/Components/PageFour/atout";
-import Tableau from "@/app/Frontend/Components/PageFive/tableau";
+// import Tableau from "@/app/Frontend/Components/PageFive/tableau";
 import Offre from "@/app/Frontend/Components/PageSix/offre";
 import Virtuel from "@/app/Frontend/Components/image360/image3d";
 import AboutUs from "@/app/Frontend/Components/PageSeven/aboutUs";
@@ -21,7 +21,7 @@ export default function Home() {
             <Atout />
             <Virtuel />
             <Photos />
-            <Tableau />
+            {/* <Tableau /> */}
             <Offre />
             <AboutUs />
             <InfoContact />

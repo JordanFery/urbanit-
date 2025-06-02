@@ -13,11 +13,11 @@ export default function Accueil() {
 
     return (
         <section className="bg-[url('/Batiment.jpg')] bg-cover bg-no-repeat bg-center h-screen">
-            <div className="relative bg-opacity-0 h-screen flex flex-col justify-between">
+            <div className="relative h-screen flex flex-col justify-between">
 
                 {/* Texte en haut */}
-                <div className="relative z-10 pt-24 text-center">
-                    <h1>
+                <div className="relative z-10 pt-6 text-center">
+                    {/* <h1>
                         <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_var(--color-title)_50%,_white_50%)] bg-clip-text text-transparent">U</span>
                         <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_white_50%,_var(--color-title)_50%)] bg-clip-text text-transparent">R</span>
                         <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_var(--color-title)_50%,white_50%)] bg-clip-text text-transparent">B</span>
@@ -26,9 +26,17 @@ export default function Accueil() {
                         <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_white_50%,_var(--color-title)_50%)] bg-clip-text text-transparent">I</span>
                         <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_var(--color-title)_50%,white_50%)] bg-clip-text text-transparent">T</span>
                         <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_white_50%,_var(--color-title)_50%)] bg-clip-text text-transparent">É</span>
-                    </h1>
-                    <p className="text-4xl font-bold text-[var(--color-title)] mt-4">MONTPELLIER</p>
-                    <p className="text-4xl font-bold text-[var(--color-title)] mt-1">APPARTEMENTS DU T3 AU T5</p>
+                    </h1> */}
+                    <div className="w-2xl h-48 overflow-hidden mx-auto mt-12">
+                        <Image
+                            src="/logourba.png"
+                            alt="logo entreprise"
+                            width={200}
+                            height={100}
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
+                    <p className="text-4xl font-bold text-[var(--color-title)]">MONTPELLIER POMPIGNANE</p>
                     <div className="relative z-10 pt-12 text-center">
                         <a href="#quartier">
 
