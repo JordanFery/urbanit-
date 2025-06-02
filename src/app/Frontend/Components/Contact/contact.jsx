@@ -85,7 +85,7 @@ export function Contact() {
                     <FormSend /> // Affiche FormSend si le formulaire a été soumis avec succès
                 ) : (
                     <div className="w-[500px]">
-                        <h1 className="text-center text-4xl py-20">Contactez-nous</h1>
+                        <h1 className="text-[var(--color-title)] font-semibold md:text-5xl text-3xl mr-auto mt-32 pb-12">Contactez-nous</h1>
                         <Form {...form}>
                             <form onSubmit={form.handleSubmit(onSubmit)} className="">
                                 <div className="mb-6">
@@ -157,7 +157,7 @@ export function Contact() {
                                                 <FormLabel>Votre message</FormLabel>
                                                 <FormControl>
                                                     <textarea
-                                                        className="rounded-2xl border bg-[var(--color-fontHover)] text-black w-full h-56 resize-none px-4 py-4"
+                                                        className="rounded-md bg-[var(--color-fontHover)] text-black w-full h-56 resize-none mb-4"
                                                         placeholder=""
                                                         {...field}
                                                     />
@@ -174,7 +174,7 @@ export function Contact() {
                                                 <FormControl>
                                                     <input type="checkbox" {...field} checked={field.value} />
                                                 </FormControl>
-                                                <FormLabel className="text-sm">Inscription à la Newsletter</FormLabel>
+                                                <FormLabel className="text-sm font-thin">Inscription à la Newsletter</FormLabel>
                                             </FormItem>
                                         )}
                                     />
@@ -195,7 +195,7 @@ export function Contact() {
 
                                 {submitError && <p className="text-red-500">{submitError}</p>}
                                 <div className="mt-8 flex justify-center pb-20">
-                                    <Button type="submit" className="bg-[var(--color-fontHover)] text-bg" disabled={isSubmitting}>
+                                    <Button type="submit" className="bg-[var(--color-title)] hover:bg-[var(--color-buttonHover)] text-[var(--color-fontHover)] hover:text-[var(--color-fontHover)]" disabled={isSubmitting}>
                                         {isSubmitting ? "Envoi..." : "Envoyer"}
                                     </Button>
                                 </div>
