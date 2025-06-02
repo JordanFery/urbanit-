@@ -5,17 +5,17 @@ export default function Offre() {
     return (
         <section className="text-[var(--color-font)] bg-[var(--color-bg1)] grid grid-cols-4  w-full py-10 px-4">
             <div className=" items-center col-start-1 col-span-4 md:col-start-2 md:col-span-2 text-[var(--color-font)]">
-                <h1 className="text-[var(--color-title)] md:text-5xl text-3xl mr-auto mt-12 text-center">OFFRE DE LANCEMENT SUR LES 3 <br /> PREMIÈRES RÉSERVATIONS :</h1>
+                <h1 className="text-[var(--color-title)] font-semibold text-center md:text-5xl text-3xl mr-auto mt-12">OFFRE DE LANCEMENT SUR LES 3 PREMIÈRES RÉSERVATIONS :</h1>
 
                 <div className="mt-4 mb-8 text-center text-xl font-bold">
                     <span className="px-2 py-1 rounded">
-                        FRAIS DE NOTAIRE OFFERTS +  - 5 000 € SUR LE PRIX DU LOGEMENT
+                        FRAIS DE NOTAIRE OFFERTS +  - 5 000€ SUR LE PRIX DU LOGEMENT
                     </span>
                 </div>
                 <p className="py-4">La Résidence se trouve dans un quartier prioritaire de la ville (QPV), l’acquisition d’un logement neuf sur plans (en VEFA) est donc éligible au taux réduit de TVA de 5,5 %.</p>
 
                 <ul>
-                    <span className="underline">
+                    <span className="font-semibold">
                         Les conditions pour acquérir un logement en QPV sont :
                     </span>
 
@@ -23,8 +23,6 @@ export default function Offre() {
                     <li>- Conditions de ressources à respecter : lien du document.</li>
                 </ul>
 
-                <p className="py-4">Si vous n’êtes pas concernés par ce dispositif, vous avez la possibilité d’acquérir votre appartement en accession LIBRE.
-                </p>
 
                 <div className="flex flex-col py-4">
 
@@ -33,6 +31,8 @@ export default function Offre() {
                     <a className="underline" href="">N° du logement – Typologie et surface – Surface extérieure – Plan (à mettre en lien) – Prix QPV – Prix LIBRE</a>
                     <a className="underline" href="">N° du logement – Typologie et surface – Surface extérieure – Plan (à mettre en lien) – Prix QPV – Prix LIBRE</a>
                 </div>
+                <p className="py-4 italic">Si vous n’êtes pas concernés par ce dispositif, vous avez la possibilité d’acquérir votre appartement en accession LIBRE.
+                </p>
             </div>
 
 

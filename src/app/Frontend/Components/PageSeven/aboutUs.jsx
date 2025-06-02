@@ -4,19 +4,20 @@ export default function AboutUs() {
 
     return (
 
-        <section className="flex  grid grid-cols-6 bg-[var(--color-bg2)] items-center px-4">
+        <section className="flex  grid grid-cols-6 bg-[var(--color-bg2)] items-center px-4 py-8">
 
             <div className="col-span-6 md:col-span-2 md:col-start-2">
 
-                <h1 className="text-[var(--color-title)] text-5xl mr-auto my-12">Qui sommes-nous ?</h1>
+                <h1 className="text-[var(--color-title)] font-semibold md:text-5xl text-3xl mr-auto my-12">Qui sommes-nous ?</h1>
 
 
                 <p className="text-[var(--color-font)]">
-                    KALELITHOS, fondée en 2006, se distingue par son « esprit maison » en proposant un service sur-mesure à ses clients. Écoute, disponibilité, rigueur et réactivité sont les maîtres mots de Kalelithos Promotion.L’équipe est parfaitement constituée pour maîtriser les coûts de conception et inventer la ville de demain ! <br /><br />
+                    KALELITHOS, fondée en 2006, se distingue par son « esprit maison » en proposant un service sur-mesure à ses clients. Écoute, disponibilité, rigueur et réactivité sont les maîtres mots de Kalelithos Promotion. L’équipe est parfaitement constituée pour maîtriser les coûts de conception et inventer la ville de demain ! <br /><br />
 
                     L’équipe est parfaitement stable depuis des années, tous ses membres ont plus de 10 ans d’ancienneté. Il en résulte des automatismes et une très forte culture d’entreprise tournée vers la qualité et l’engagement. <br /><br />
-
-                    Vous souhaitez acquérir un logement ou faire un investissement locatif, quel que soit votre profil ? <br /><br />
+                    <span className="font-semibold">
+                        Vous souhaitez acquérir un logement ou faire un investissement locatif, quel que soit votre profil ? <br /><br />
+                    </span>
 
                     Contactez-nous, nous vous aiderons à faire le point sur votre projet et trouver l’appartement de vos rêves ! Nous vous mettrons également en contact avec nos meilleurs partenaires bancaires.
 
