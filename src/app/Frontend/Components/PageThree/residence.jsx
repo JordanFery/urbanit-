@@ -20,7 +20,7 @@ export default function Residence() {
                         height={1000}
                     />
                 </div>
-                <p className="mb-4">Suzeana LAJIC, Architecte</p>
+                <p className="mb-4">Suzana LAJIC, Architecte</p>
 
                 <div className="w-1/2">
                     <Image
