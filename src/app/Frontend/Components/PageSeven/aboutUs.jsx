@@ -25,12 +25,6 @@ export default function AboutUs() {
                 </p>
             </div>
 
-
-
-
-
-
-
             <div className="col-span-6 md:col-span-3 px-8">
 
                 <Image
@@ -43,9 +37,6 @@ export default function AboutUs() {
 
 
             </div>
-
-
-
 
         </section>
 

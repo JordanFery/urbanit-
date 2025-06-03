@@ -18,10 +18,10 @@ import emailjs from "@emailjs/browser"
 import { FormSend } from "./contactSend"
 
 const formSchema = z.object({
-    username: z.string().min(2, "Le nom d'utilisateur doit avoir au moins 2 caractères").max(50, "Le nom d'utilisateur est trop long"),
+    username: z.string().min(2, "Le prénom d'utilisateur doit avoir au moins 2 caractères").max(50, "Le prénom d'utilisateur est trop long"),
     name: z.string().min(2, "Le nom d'utilisateur doit avoir au moins 2 caractères").max(50, "Le nom d'utilisateur est trop long"),
     telephone: z.string().regex(/^\d{10}$/, "Le numéro de téléphone doit contenir exactement 10 chiffres"),
-    message: z.string().min(2, "Le nom d'utilisateur doit avoir au moins 2 caractères").max(50, "Le nom d'utilisateur est trop long"),
+    message: z.string().min(2, "Le message doit avoir au moins 2 caractères").max(500, "Le message est trop long"),
     email: z.string().email("Adresse email invalide").min(2, "L'email doit avoir au moins 2 caractères").max(50, "L'email est trop long"),
     newsletter: z.boolean().optional(),
     dataUsage: z.boolean().optional(),
@@ -48,7 +48,7 @@ export function Contact() {
         setSubmitError("")
 
         const templateParams = {
-            to_name: 'Jordan',
+            to_name: 'Sandra',
             from_name: data.username,
             from_lastname: data.name,
             message: data.message,
@@ -67,7 +67,7 @@ export function Contact() {
             )
             setIsFormSubmitted(true) // Mise à jour de l'état pour afficher FormSend
             setTimeout(() => {
-                window.location.replace("home")
+                window.location.replace("/")
             }, 4000)
             console.log('Email envoyé avec succès')
         } catch (error) {
