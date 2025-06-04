@@ -87,14 +87,14 @@ export default function Quartier() {
                                 height={1000}
                             />
                         </div>
-                        <div className="w-1/2 relative mt-12">
+                        {/* <div className="w-1/2 relative mt-12">
                             <Image
                                 src="/PLAN DE SITUATION.png"
                                 alt="immeuble"
                                 width={1000}
                                 height={1000}
                             />
-                        </div>
+                        </div> */}
                         <div className="py-12">
                             <button
                                 onClick={handleStrategiqueClick}
