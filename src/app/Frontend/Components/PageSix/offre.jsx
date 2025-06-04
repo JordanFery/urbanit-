@@ -63,7 +63,7 @@ export default function Offre() {
                                 Bénéficiez d’un taux réduit (sous conditions de ressources).
                             </p>
                         </div>
-                        <div className="grid grid-cols-3 gap-4 text-sm text-center">
+                        <div className="grid grid-cols-3 gap-4 text-sm text-center truncate ">
                             {[
                                 { type: "T2", price: "174 954 €" },
                                 { type: "T3", price: "227 704 €" },
