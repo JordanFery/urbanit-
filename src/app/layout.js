@@ -9,8 +9,8 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: "Urbanité",
-  description: "Urbanité est une présentation de résidence par promoteur immobilier",
+  title: "URBANITÉS",
+  description: "Urbanités est une présentation de résidence par promoteur immobilier",
 };
 
 export default function RootLayout({ children }) {

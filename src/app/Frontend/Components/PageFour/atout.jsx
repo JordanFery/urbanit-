@@ -12,8 +12,8 @@ export default function Atout() {
         setShowPrestation(!showPrestation);
     };
 
-    const handleImageClick = () => {
-        setFullscreenImage("/PerspectiveFinale.jpg");
+    const handleImageClick = (src) => {
+        setFullscreenImage(src);
     };
 
     const handleCloseFullscreen = () => {
@@ -40,7 +40,7 @@ export default function Atout() {
                 ) : (
                     <div className="pr-4 mb-12">
                         <p className="py-4">
-                            Notre résidence s'appelle "Urbanité" pour le clin d'œil à notre
+                            Notre résidence s'appelle "Urbanités" pour le clin d'œil à notre
                             architecte "l'Atelier d'Urbanité Roland Castro", et parce qu'elle
                             met en avant le savoir vivre, la politesse.
                         </p>
@@ -54,12 +54,7 @@ export default function Atout() {
                             </li>
                             <li className="pb-1">
                                 Mixité de clientèle avec du BRS "socle", du BRS intermédiaire,
-                                des logements en TVA à 5.5% (secteur QPV de la Pompignane), et
-                                des logements libres.
-                            </li>
-                            <li className="pb-1">
-                                Présence d'un concierge logeant sur place pour favoriser la
-                                bonne entente entre les habitants.
+                                des logements en TVA à 5.5%, et des logements libres.
                             </li>
                             <li className="pb-1">
                                 Présence de 3 commerces sur le thème de la restauration, du
@@ -75,7 +70,7 @@ export default function Atout() {
                                 le lien social et la détente
                             </li>
                             <li className="pb-1">
-                                2 voitures en auto-partage pour inciter les résidents à
+                                2 stations de voiture en auto-partage (Modul’Auto) pour inciter les résidents à
                                 favoriser les transports collectifs ou le vélo.
                             </li>
                         </ul>
@@ -112,17 +107,32 @@ export default function Atout() {
                 )}
             </div>
 
-            {/* Colonne image */}
-            <div className="col-span-6 md:col-span-3 md:col-start-4 col-start-1 bg-[var(--color-bg1)] flex items-center">
-                <div className="mt-10 md:p-12 w-full relative">
+
+            {/* Colonne images */}
+            <div className="col-span-6 md:col-span-3 md:col-start-4 col-start-1 bg-[var(--color-bg1)] flex flex-col items-center">
+                {/* Image 1 */}
+                <div className="mt-10 md:mt-0 md:p-12 w-full relative">
                     <Image
                         src="/PerspectiveFinale.jpg"
                         alt="immeuble"
                         width={1000}
                         height={1000}
-                        className="cursor-pointer"
-                        onClick={handleImageClick}
+                        className="cursor-pointer w-full h-auto object-contain"
+                        onClick={() => handleImageClick("/PerspectiveFinale.jpg")}
                     />
+                </div>
+
+                {/* Image 2 */}
+                <div className="mt-10 md:mt-0 md:p-12 w-full relative">
+                    <Image
+                        src="/logementb53.png"
+                        alt="immeuble"
+                        width={1000}
+                        height={1000}
+                        className="cursor-pointer w-full h-auto object-contain"
+                        onClick={() => handleImageClick("/logementb53.png")}
+                    />
+                    <p className="text-center mt-2">Ambiance proposée pour le logement B53</p>
                 </div>
             </div>
 
@@ -137,7 +147,7 @@ export default function Atout() {
                         alt="Plein écran"
                         width={1200}
                         height={800}
-                        className="max-w-full max-h-full object-contain"
+                        className="max-w-[90%] max-h-[90%] object-contain"
                     />
                     <button
                         onClick={handleCloseFullscreen}
@@ -147,6 +157,7 @@ export default function Atout() {
                     </button>
                 </div>
             )}
+
         </section>
     );
 }

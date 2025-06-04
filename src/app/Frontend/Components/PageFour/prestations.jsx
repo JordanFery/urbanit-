@@ -43,7 +43,7 @@ export default function Prestations() {
                     </div>
                     <li className='mb-2'>Volets roulants motorisés (et centralisés pour les T4 - T5 - T6)</li>
                     <li className='mb-2'>Chauffage par pompe à chaleur</li>
-                    <li className='mb-2'>ECS par chauffagerie collective</li>
+                    <li className='mb-2'>Eau chaude par chauffagerie collective</li>
                 </ul>
             </div>
 

@@ -10,7 +10,7 @@ export default function Offre() {
                 </h1>
 
                 <p className="text-xl font-medium mb-12 max-w-2xl mx-auto">
-                    Plusieurs types d'accession vous sont proposées pour faciliter votre projet immobilier.
+                    Plusieurs types d'accession vous sont proposés pour faciliter votre projet immobilier.
                 </p>
 
                 {/* GRID DES 2 TYPES */}
@@ -65,11 +65,11 @@ export default function Offre() {
                         </div>
                         <div className="grid grid-cols-3 gap-4 text-sm text-center">
                             {[
-                                { type: "T2", price: "212 000 €" },
-                                { type: "T3", price: "212 000 €" },
-                                { type: "T4", price: "258 000 €" },
-                                { type: "T5", price: "277 000 €" },
-                                { type: "T6", price: "212 000 €" },
+                                { type: "T2", price: "174 954 €" },
+                                { type: "T3", price: "227 704 €" },
+                                { type: "T4", price: "330 567 €" },
+                                { type: "T5", price: "400 021 €" },
+                                { type: "T6", price: "482 663 €" },
                             ].map((logement, i) => (
                                 <div
                                     key={i}

@@ -12,7 +12,7 @@ export default function AboutUs() {
 
 
                 <p className="text-[var(--color-font)]">
-                    KALELITHOS, fondée en 2006, se distingue par son « esprit maison » en proposant un service sur-mesure à ses clients. Écoute, disponibilité, rigueur et réactivité sont les maîtres mots de Kalelithos Promotion. L’équipe est parfaitement constituée pour maîtriser les coûts de conception et inventer la ville de demain ! <br /><br />
+                    KALELITHOS, fondée en 2006, se distingue par son « esprit maison » en proposant un service sur-mesure à ses clients. Écoute, disponibilité, rigueur et réactivité sont les maîtres mots de Kalelithos Promotion.<br /><br />
 
                     L’équipe est parfaitement stable depuis des années, tous ses membres ont plus de 10 ans d’ancienneté. Il en résulte des automatismes et une très forte culture d’entreprise tournée vers la qualité et l’engagement. <br /><br />
                     <span className="font-semibold">

@@ -2,10 +2,7 @@
 import Image from "next/image";
 import Strategique from "./strategique";
 import { useState, useEffect } from "react";
-import { ShoppingCart } from 'lucide-react';
-import { TreePine } from 'lucide-react';
-import { Volleyball } from 'lucide-react';
-import AnimatedNumber from "@/components/animatedNumber";
+import { ShoppingCart, MapPin, TreePine, Volleyball, BriefcaseMedical } from 'lucide-react';
 
 
 export default function Quartier() {
@@ -52,35 +49,16 @@ export default function Quartier() {
 
 
 
-                    <span className="h-[0.5px] w-full bg-[var(--color-title)]"></span>
-                    <h2 className="pt-4 pb-2">La Pompignane en chiffre :</h2>
-
-
-                    <div className="flex flex-row text-center w-full justify-between mt-2 pb-12">
-                        <div className="">
-                            <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 leading-tight">
-                                <AnimatedNumber target={60} duration={2000} />
-                            </div>
-                            <p className="text-sm">Commerces</p>
-                        </div>
-                        <div className=" border-r border-l border-[var(--color-title)]">
-                            <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 flex flex-row items-baseline justify-center leading-tight">
-                                <AnimatedNumber target={42} duration={3000} />
-                                <p className="text-[var(--color-title)] text-xl font-normal pl-1 ">ans</p>
-
-                            </div>
-                            <p className="text-sm px-10">De moyenne d'âge</p>
-                        </div>
-                        <div className="pr-4">
-                            <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 flex flex-row items-baseline justify-center leading-tight">
-                                <AnimatedNumber target={41} duration={4000} />
-                                <p className="text-[var(--color-title)] text-xl font-normal ">%</p>
-
-                            </div>
-                            <p className="text-sm">De propriétaires</p>
-                        </div>
-
+                    <span className="h-[0.5px] w-full bg-[var(--color-title)] mb-4"></span>
+                    <div className="flex">
+                        <MapPin size={66} className=" mr-8" />
+                        <p>URBANITÉS se situe à l’angle de l’Avenue Alphonse Juin et de la rue Marie Durand à Montpellier, dans le quartier de la Pompignane.</p>
                     </div>
+                    <div className="flex mb-4">
+                        <BriefcaseMedical className="mr-8" />
+                        <p>Centres médicaux, médecins, dentistes</p>
+                    </div>
+
                 </div>
             </div>
 

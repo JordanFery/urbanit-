@@ -29,7 +29,7 @@ export default function Accueil() {
                     </h1> */}
                     <div className="md:w-2xl w-xs h-48 overflow-hidden mx-auto mt-12">
                         <Image
-                            src="/logourba.png"
+                            src="/logosamya.png"
                             alt="logo entreprise"
                             width={200}
                             height={100}
