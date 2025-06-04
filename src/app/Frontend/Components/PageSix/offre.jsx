@@ -63,7 +63,7 @@ export default function Offre() {
                                 Bénéficiez d’un taux réduit (sous conditions de ressources).
                             </p>
                         </div>
-                        <div className="grid grid-cols-3 gap-4 text-sm text-center truncate ">
+                        <div className="grid grid-cols-3 gap-4 text-sm text-center  ">
                             {[
                                 { type: "T2", price: "174 954 €" },
                                 { type: "T3", price: "227 704 €" },
@@ -77,7 +77,7 @@ export default function Offre() {
                                 >
                                     <Home strokeWidth={1.2} className="mb-2" />
                                     <span>Logement {logement.type}</span>
-                                    <strong>{logement.price}</strong>
+                                    <strong className="whitespace-nowrap">{logement.price}</strong>
                                 </div>
                             ))}
                         </div>
