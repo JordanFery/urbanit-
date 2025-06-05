@@ -22,9 +22,9 @@ export default function Quartier() {
 
                     <h1 className="text-[var(--color-title)] font-semibold md:text-5xl text-3xl mr-auto mt-12">Un quartier dynamique et familial</h1>
 
-                    <p className="py-4">À Montpellier, le quartier de la Pompignane est un quartier résidentiel en pleine évolution, la ville le transforme pour en faire un lieu de vie urbain, vert et durable.
+                    <p className="py-4 text-justify">À Montpellier, le quartier de la Pompignane est un quartier résidentiel en pleine évolution, la ville le transforme pour en faire un lieu de vie urbain, vert et durable.
                     </p>
-                    <p className="py-4">Connecté au centre-ville grâce aux transports en commun et à une mobilité éco-responsable, il offre aux habitants un cadre idéal.</p>
+                    <p className="py-4 text-justify">Connecté au centre-ville grâce aux transports en commun et à une mobilité éco-responsable, il offre aux habitants un cadre idéal.</p>
 
 
 
@@ -37,7 +37,7 @@ export default function Quartier() {
                         <p>- Au pied de la Résidence : Parc Rimbaud, Parc des Pastourelles, Berges du Lez
                         </p>
                     </div>
-                    <div className="flex py-2">
+                    <div className="flex py-2 text-justify">
                         <Volleyball className="mr-4" />
                         <ul className="pb-2">
                             <li>- Piscine Jean Taris</li>
@@ -50,7 +50,7 @@ export default function Quartier() {
 
 
                     <span className="h-[0.5px] w-full bg-[var(--color-title)] mb-4"></span>
-                    <div className="flex">
+                    <div className="flex text-justify">
                         <MapPin size={66} className=" mr-8" />
                         <p>URBANITÉS se situe à l’angle de l’Avenue Alphonse Juin et de la rue Marie Durand à Montpellier, dans le quartier de la Pompignane.</p>
                     </div>

@@ -8,7 +8,7 @@ export default function Residence() {
 
 
     return (
-        <section id="residence" className="bg-[var(--color-bg2)] w-full grid grid-cols-6 flex flex-row scroll-mt-14">
+        <section id="residence" className="bg-[var(--color-bg2)] w-full grid grid-cols-6 flex flex-row scroll-mt-14 ">
 
             <div className="flex bg-white flex-col items-center md:col-span-3 col-span-6 py-8 justify-evenly min-h-[500px]">
 

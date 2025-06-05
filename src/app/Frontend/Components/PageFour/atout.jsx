@@ -21,7 +21,7 @@ export default function Atout() {
     };
 
     return (
-        <section id="prestation" className="w-full grid grid-cols-6 scroll-mt-14">
+        <section id="prestation" className="w-full grid grid-cols-6 scroll-mt-14 text-justify">
             {/* Colonne gauche */}
             <div className="bg-[var(--color-bg2)] col-span-1" />
 
