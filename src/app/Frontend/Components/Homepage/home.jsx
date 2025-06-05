@@ -17,23 +17,13 @@ export default function Accueil() {
 
                 {/* Texte en haut */}
                 <div className="relative z-10 pt-6 text-center">
-                    {/* <h1>
-                        <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_var(--color-title)_50%,_white_50%)] bg-clip-text text-transparent">U</span>
-                        <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_white_50%,_var(--color-title)_50%)] bg-clip-text text-transparent">R</span>
-                        <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_var(--color-title)_50%,white_50%)] bg-clip-text text-transparent">B</span>
-                        <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_white_50%,_var(--color-title)_50%)] bg-clip-text text-transparent">A</span>
-                        <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_var(--color-title)_50%,white_50%)] bg-clip-text text-transparent">N</span>
-                        <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_white_50%,_var(--color-title)_50%)] bg-clip-text text-transparent">I</span>
-                        <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_var(--color-title)_50%,white_50%)] bg-clip-text text-transparent">T</span>
-                        <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_white_50%,_var(--color-title)_50%)] bg-clip-text text-transparent">É</span>
-                    </h1> */}
-                    <div className="md:w-2xl w-xs h-48 overflow-hidden mx-auto mt-24">
+                    <div className="md:w-lg w-xs md:h-55 place-items-center  mx-auto mt-15">
                         <Image
-                            src="/logourbanites.png"
+                            src="/urbanite.png"
                             alt="logo entreprise"
-                            width={200}
+                            width={600}
                             height={100}
-                            className="w-full h-full object-cover "
+                            className=" filter brightness-0 invert"
                         />
                     </div>
                     <p className="text-4xl font-bold text-[var(--color-title)]">MONTPELLIER POMPIGNANE</p>
