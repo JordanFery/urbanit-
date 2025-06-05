@@ -27,13 +27,13 @@ export default function Accueil() {
                         <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_var(--color-title)_50%,white_50%)] bg-clip-text text-transparent">T</span>
                         <span className="sm:text-9xl text-6xl font-bold bg-[linear-gradient(to_bottom,_white_50%,_var(--color-title)_50%)] bg-clip-text text-transparent">É</span>
                     </h1> */}
-                    <div className="md:w-2xl w-xs h-48 overflow-hidden mx-auto mt-12">
+                    <div className="md:w-2xl w-xs h-48 overflow-hidden mx-auto mt-24">
                         <Image
-                            src="/logosamya.png"
+                            src="/logourbanites.png"
                             alt="logo entreprise"
                             width={200}
                             height={100}
-                            className="w-full h-full object-cover"
+                            className="w-full h-full object-cover "
                         />
                     </div>
                     <p className="text-4xl font-bold text-[var(--color-title)]">MONTPELLIER POMPIGNANE</p>

@@ -21,7 +21,7 @@ export default function Atout() {
     };
 
     return (
-        <section id="prestation" className="w-full grid grid-cols-6 scroll-mt-14 text-justify">
+        <section className="w-full grid grid-cols-6 text-justify">
             {/* Colonne gauche */}
             <div className="bg-[var(--color-bg2)] col-span-1" />
 
@@ -120,6 +120,8 @@ export default function Atout() {
                         className="cursor-pointer w-full h-auto object-contain"
                         onClick={() => handleImageClick("/PerspectiveFinale.jpg")}
                     />
+                    <p className="text-center mt-2">Future Place Juin </p>
+
                 </div>
 
                 {/* Image 2 */}

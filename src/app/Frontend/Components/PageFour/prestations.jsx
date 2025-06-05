@@ -11,7 +11,7 @@ export default function Prestations() {
 
             <div className="py-4">
                 <div className='flex w-full justify-evenly mb-4'>
-                    <p className='mb-4'>Le plan de votre logement est personnalisable sous conditions (étudié en fonciton des contraintes techniques et de l'avancement du projet...)</p>
+                    <p className='mb-4'>Le plan de votre logement est personnalisable sous conditions (étudié en fonction des contraintes techniques et de l'avancement du projet...)</p>
                 </div>
                 <ul>
                     <div className='flex flex-row  mt-12 mb-2'>

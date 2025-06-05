@@ -28,6 +28,10 @@ export default function Quartier() {
 
 
 
+                    <div className="flex text-justify">
+                        <MapPin size={66} className=" mr-8" />
+                        <p>URBANITÉS se situe à l’angle de l’Avenue Alphonse Juin et de la rue Marie Durand à Montpellier, dans le quartier de la Pompignane.</p>
+                    </div>
                     <div className="flex py-2">
                         <ShoppingCart className="mr-4" />
                         <p>- Super U, LIDL, nombreux commerces</p>
@@ -49,11 +53,6 @@ export default function Quartier() {
 
 
 
-                    <span className="h-[0.5px] w-full bg-[var(--color-title)] mb-4"></span>
-                    <div className="flex text-justify">
-                        <MapPin size={66} className=" mr-8" />
-                        <p>URBANITÉS se situe à l’angle de l’Avenue Alphonse Juin et de la rue Marie Durand à Montpellier, dans le quartier de la Pompignane.</p>
-                    </div>
                     <div className="flex mb-4">
                         <BriefcaseMedical className="mr-8" />
                         <p>Centres médicaux, médecins, dentistes</p>
@@ -87,14 +86,15 @@ export default function Quartier() {
                                 height={1000}
                             />
                         </div>
-                        {/* <div className="w-1/2 relative mt-12">
+                        <div className="relative mt-12 rounded-lg overflow-hidden">
                             <Image
-                                src="/PLAN DE SITUATION.png"
+                                src="/quartier.png"
                                 alt="immeuble"
                                 width={1000}
                                 height={1000}
                             />
-                        </div> */}
+                            <p className="text-center">Espace commercial « Côté Lez » Avenue de la Pompignane</p>
+                        </div>
                         <div className="py-12">
                             <button
                                 onClick={handleStrategiqueClick}

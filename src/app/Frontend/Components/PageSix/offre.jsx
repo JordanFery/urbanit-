@@ -3,7 +3,7 @@ import { Home, Info } from "lucide-react";
 
 export default function Offre() {
     return (
-        <section className="bg-[var(--color-bg1)] text-[var(--color-font)] w-full py-16 px-4">
+        <section id="prestation" className="bg-[var(--color-bg1)] text-[var(--color-font)] w-full py-16 px-4 scroll-mt-14">
             <div className="max-w-6xl mx-auto text-center">
                 <h1 className="text-[var(--color-title)] font-bold text-4xl md:text-5xl mb-10">
                     Habiter ou Investir
