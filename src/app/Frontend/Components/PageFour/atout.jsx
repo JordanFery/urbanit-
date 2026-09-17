@@ -93,11 +93,12 @@ export default function Atout() {
                                 4ème trimestre 2025 : début des travaux
                             </li>
                             <ul>
+                                <p>Septembre 2026 :                                </p>
                                 <li className="pb-1">
-                                    Stock des logements BRS : plus que 6 logements disponibles
+                                    - Stock des logements BRS : plus que 6 logements disponibles
                                 </li>
                                 <li className="pb-1">
-                                    Stock des logements TVA à 5,5 % ou 20 % : plus que 15 logements disponibles <br />
+                                    - Stock des logements TVA à 5,5 % ou 20 % : plus que 15 logements disponibles <br />
                                     - Construction en cours, achèvement du rez-de-chaussée
 
                                 </li>
