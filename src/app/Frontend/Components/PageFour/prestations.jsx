@@ -20,7 +20,7 @@ export default function Prestations() {
                     <li className='mb-2'>Logement atypique et duplex</li>
                     <li className='mb-2'>Placards aménagés</li>
                     <li className='mb-2'>Surface terrasse généreuse</li>
-                    <li className='mb-2'>Cuisine semi-équipée et non équipée pour les T2</li>
+                    <li className='mb-2'>Cuisine semi-équipée pour les T2</li>
                     <li className='mb-2'>Grande ouverture séjour par baie coulissante alu</li>
 
                     <div className='flex flex-row  mt-12 mb-2'>
