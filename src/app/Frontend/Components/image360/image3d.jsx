@@ -1,4 +1,4 @@
-import { Rotate3D } from "lucide-react"; // Icône stylée, installée via lucide-react
+import { Rotate3D } from "lucide-react"; 
 
 export default function Virtuel() {
     return (

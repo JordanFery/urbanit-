@@ -20,7 +20,6 @@ export default function Header() {
 
     return (
         <header className="fixed top-0 left-0 h-16 w-full bg-[var(--color-bg1)] flex items-center px-4 z-50 shadow">
-            {/* Logo */}
             <div className="flex items-center">
                 <Link href="/">
                     <Image
@@ -33,7 +32,6 @@ export default function Header() {
                 </Link>
             </div>
 
-            {/* Menu desktop */}
             <nav className="hidden md:flex absolute left-1/2 -translate-x-1/2 gap-6 text-[var(--color-gris)] text-sm items-center">
                 {navLinks.map(({ href, label }) =>
                     isHome ? (
@@ -63,9 +61,6 @@ export default function Header() {
                 </div>
             </nav>
 
-            {/* Contact button */}
-
-            {/* Burger icon (mobile only) */}
             <button
                 className="md:hidden ml-auto text-[var(--color-font)]"
                 onClick={() => setIsOpen(!isOpen)}
@@ -74,7 +69,6 @@ export default function Header() {
                 {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
 
-            {/* Mobile menu */}
             {isOpen && (
                 <div className="absolute top-16 left-0 w-full bg-[var(--color-bg1)] flex flex-col items-center gap-4 py-4 shadow-md md:hidden z-40">
                     {navLinks.map(({ href, label }) =>

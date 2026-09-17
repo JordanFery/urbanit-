@@ -63,7 +63,7 @@ export default function Residence() {
                         <div className="text-4xl md:text-5xl text-[var(--color-title)] font-extrabold pb-2 leading-tight">
                             <AnimatedNumber target={2} duration={4000} />
                             <span className="text-[var(--color-font)] text-sm font-light px-2">à</span>
-                            <AnimatedNumber target={6} duration={4000} />
+                            <AnimatedNumber target={5} duration={4000} />
                         </div>
                         <p className="text-sm">Pièces</p>
                     </div>

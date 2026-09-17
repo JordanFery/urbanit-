@@ -15,7 +15,6 @@ export default function Accueil() {
         <section className="bg-[url('/Batiment.jpg')] bg-cover bg-no-repeat bg-center h-screen">
             <div className="relative h-screen flex flex-col justify-between">
 
-                {/* Texte en haut */}
                 <div className="relative z-10 pt-6 text-center">
                     <div className="md:w-lg w-xs md:h-55 place-items-center  mx-auto mt-15">
                         <Image
@@ -37,9 +36,6 @@ export default function Accueil() {
                     </div>
                 </div>
 
-                {/* Bouton en bas */}
-
-                {/* Image animée */}
             </div>
         </section>
     );

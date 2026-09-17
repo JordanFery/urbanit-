@@ -3,7 +3,6 @@ import { Mail, Phone, MapPin, Globe } from "lucide-react"; // facultatif si tu v
 export default function InfoContact() {
     return (
         <section className="bg-[var(--color-bg1)] py-12 px-4 md:px-20 grid gap-6 md:grid-cols-3 text-white">
-            {/* Site web */}
             <a
                 href="https://www.kalelithos.fr"
                 target="_blank"
@@ -19,7 +18,6 @@ export default function InfoContact() {
                 </p>
             </a>
 
-            {/* Téléphone */}
             <div className="bg-[var(--color-title)] rounded-xl p-6 hover:scale-[1.03] transition-transform duration-300 shadow-lg">
                 <div className="flex items-center gap-4 mb-2">
                     <Phone className="w-6 h-6 text-white" />
@@ -30,7 +28,6 @@ export default function InfoContact() {
 
             </div>
 
-            {/* Adresse */}
             <div className="bg-[var(--color-title)] rounded-xl p-6 hover:scale-[1.03] transition-transform duration-300 shadow-lg">
                 <div className="flex items-center gap-4 mb-2">
                     <MapPin className="w-6 h-6 text-white" />
